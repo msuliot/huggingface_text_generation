@@ -23,7 +23,6 @@ def main():
     for key, value in data["transformersInfo"].items():
         print(f"- transformersInfo: {key}: {value}")
 
-
     try:
         config = data["config"]
         tsp = config["task_specific_params"]
